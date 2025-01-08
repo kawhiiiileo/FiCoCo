@@ -9,15 +9,17 @@
 [Xuyang Liu]()<sup>2*</sup>,
 [Pengxiang Ding]()<sup>3</sup>,
 [Donglin Wang]()<sup>3</sup>,\
-[Honggang Chen]()<sup>2✉️</sup>,
-[QingSen Yan]()<sup>1✉️</sup>
-[Siteng Huang]()<sup>4✉️</sup>
+[Honggang Chen]()<sup>2</sup>,
+[QingSen Yan]()<sup>1</sup>
+[Siteng Huang]()<sup>4✉</sup>
 
 <sup>1</sup>Northwestern Polytechnical University, <sup>2</sup>Sichuan University,\
 <sup>3</sup>Westlake University, <sup>4</sup>Zhejiang University
 
 <p>
 <a href='https://arxiv.org/pdf/2411.17686'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
+
 </h5>
 </div>
 
@@ -51,7 +53,7 @@ cd FiCoCo
 
 Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
-4. Download LLaVa and put it under ./liuhaotian/llava-v1.5-7b.
+4. Download LLaVA and put it under ./liuhaotian/llava-v1.5-7b.
 
    [LLaVA-1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
 
