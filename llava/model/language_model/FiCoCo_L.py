@@ -125,21 +125,9 @@ def Compress(
     mode='mean',
     include_distill_token: bool = False,
 ) -> torch.Tensor:
-    n, t, c = x.shape
-    merge_mode = 'one2auto_topk'
-    merge_type = 'weighted'
-    if merge_mode == 'one2one':
-        merge = x.gather(dim=-2, index=merge_idx.expand(n, reduction_factor, c))
-        x = x.scatter_reduce(-2, target_indice.expand(n, reduction_factor, c), merge, reduce=mode)
-        remain_idx = remain_idx.unsqueeze(-1)
-        final_embeddings = x.gather(dim=-2, index=remain_idx.expand(n, t - reduction_factor, c))
-    elif merge_mode == 'one2auto_topk':
-        if merge_type == 'weighted':
-            total_score = top_values.sum(dim=-1, keepdim=True)
-            merge_weights = top_values / total_score
-        elif merge_type == 'average':
-            top_k = top_values.size(-1)
-            merge_weights = torch.ones_like(top_values) / top_k
+        n, t, c = x.shape
+        total_score = top_values.sum(dim=-1, keepdim=True)
+        merge_weights = top_values / total_score
         merge_indices_choose = merge_idx.squeeze(-1)
         chosen_weights = merge_weights.gather(dim=1, index=merge_indices_choose.unsqueeze(-1).expand(-1, -1, merge_weights.size(-1)))
         merge_tokens = x.gather(dim=-2, index=merge_idx.expand(n, reduction_factor, c))
@@ -147,9 +135,6 @@ def Compress(
         expanded_tokens = weighted_tokens.reshape(n, -1, c)
         flat_indices = target_indice.reshape(n, -1).unsqueeze(-1).expand(-1, -1, c)
         x = x.scatter_add_(1, flat_indices, expanded_tokens)
-        remain_idx = remain_idx.unsqueeze(-1)
-        final_embeddings = x.gather(dim=-2, index=remain_idx.expand(n, t - reduction_factor, c))
-    elif merge_mode == 'prune':
         remain_idx = remain_idx.unsqueeze(-1)
         final_embeddings = x.gather(dim=-2, index=remain_idx.expand(n, t - reduction_factor, c))
     return final_embeddings
