@@ -1,0 +1,102 @@
+取前10条数据
+1. 仅对text token进行合并<由于text token数量较少, 取r=1, 2, 3, 4>进行结果分析
+当r=1, 前十条数据的输出如下:
+    Dakota
+    Drupalcon
+    Ston
+    Bowmore
+    10 years
+    22
+    12:15
+    Omega
+    Ida org
+    Philippe molitor
+当r=2, 前十条数据的输出如下:
+    Dakota
+    Drupalcon
+    Ston
+    Bowmore
+    10 years
+    222
+    10:55
+    Omega
+    Ida org
+    Philippe Molitor
+当r=3, 前十条数据的输出如下:
+    Dakota Digital
+    Drupalcon
+    Ston
+    Bowmore
+    10 years
+    22222
+    10: 10:55
+    Omega
+    Ida org
+    Philippe Molitor
+当r=4, 前十条数据的输出如下:
+    Dakota
+    Drupalcon
+    Stonely Self-Righteous
+    Bowmore
+    10
+    222222
+    10: 10:55
+    Omega
+    Ida org
+    Philippe Molitor
+2. 仅对visual token进行合并<r=2, 5, 10, 15>进行结果分析
+r=0
+    Dakota digital
+    Drupalcon
+    Ston
+    Bowmore
+    10 years
+    22
+    11:55
+    Omega
+    Ida org
+    Philippe molitor
+r=2
+    Dakota
+    Drupalcon
+    Ston
+    Morangie
+    10 years
+    22
+    11:55
+    Omega
+    Ida org
+    Philippe Molitor
+r=5
+    Dakota digital
+    Drupalcon
+    Self-righteous
+    Bowmore
+    10
+    222222222
+    10: 112:20
+    Omega
+    Ida org
+    Philippe Molitor
+r=10
+    Dakota digital
+    Copenhagen
+    Ston
+    Bowmore
+    10
+    22222222222222222222
+    112:500:555:500:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5:5
+    Omega
+    Ida Org
+    Philippe Molitor
+r=15
+    Dakota
+    Drupalcon
+    Stone
+    Bowmore
+    10 years
+    2222222222222222222222222222222
+    111:50000:50:50:50:50:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5:0:5
+    Omega
+    Ida
+    Philippe Molitor
