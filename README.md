@@ -24,17 +24,17 @@
 </div>
 
 <p align='center'>
-<img src='./main.png' alt='mask' width='700px'>
+<img width="1000" alt="image" src='./main.png'>
 </p>
 
 ## 👀 Overview
 
 To accelerate the inference of heavy Multimodal Large Language Models (MLLMs), this study rethinks the current landscape of training-free token reduction research. We regret to find that the critical components of existing methods are tightly intertwined, with their interconnections and effects remaining unclear for comparison, transfer, and expansion. Therefore, we propose a unified ''filter-correlate-compress'' paradigm that decomposes the token reduction into three distinct stages within a pipeline, maintaining consistent design objectives and elements while allowing for unique implementations. We additionally demystify the popular works and subsume them into our paradigm to showcase its universality. Finally, we offer a suite of methods grounded in the paradigm, striking a balance between speed and accuracy throughout different phases of the inference. Experimental results across 10 benchmarks indicate that our methods can achieve up to an 82.4% reduction in FLOPs with a minimal impact on performance, simultaneously surpassing state-of-the-art training-free methods.
 <div align=center>
-<img width="1500" alt="image" src="./intro.png">
+<img width="1000" alt="image" src="./intro.png">
 </div>
 
-## 👨 Preparation
+## 🛠 Preparation
 
 1. Clone this repository.
 ```bash
@@ -53,14 +53,14 @@ cd FiCoCo
 
 Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
-4. Download LLaVA and put it under ./liuhaotian/llava-v1.5-7b.
+4. Download LLaVA and Open-LLaVA-Next models and put them under ./liuhaotian/llava-v1.5-7b.
 
-   [LLaVA-1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
+* [LLaVA-1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
 
-   [Open-LLaVA-Next](https://github.com/xiaoachen98/Open-LLaVA-NeXT)
+* [Open-LLaVA-Next](https://github.com/xiaoachen98/Open-LLaVA-NeXT)
 
 
-## 🎯 Usage
+## 🚀 Run and evaluation
 To configure the FiCoCo model with these parameters, update the corresponding settings in your code or configuration file. Below is an example configuration:
 
 For example:\
@@ -76,11 +76,8 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/sqa.sh
 
 To calculate FLOPs, we can refer to the methodology presented in the work of [LLM-viewer](https://github.com/hahnyuan/LLM-Viewer/). We deeply appreciate their outstanding contribution to this field.
 
-## License
 
-This project is released under the [Apache 2.0 license](LICENSE).
-
-## Citation
+## 📌 Citation
 
 If you use FiCoCo in your research, please cite our work by using the following BibTeX entry:
 ```bibtex
@@ -94,6 +91,9 @@ If you use FiCoCo in your research, please cite our work by using the following 
 }
 
 ```
-## Acknowledgment
+## 👍 Acknowledgment
 
 We extend our gratitude to the open-source efforts of [LLaVA](https://github.com/haotian-liu/LLaVA), [ToMe](https://github.com/facebookresearch/ToMe/) and [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT).
+
+## :e-mail: Contact
+For any question about our paper or code, please email `yhhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
