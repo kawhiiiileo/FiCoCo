@@ -53,12 +53,9 @@ cd FiCoCo
 
 Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
-4. Download LLaVA and Open-LLaVA-Next models and put them under ./liuhaotian/llava-v1.5-7b.
+4. Download LLaVA models and put them under ./liuhaotian/llava-v1.5-7b.
 
 * [LLaVA-1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
-
-* [Open-LLaVA-Next](https://github.com/xiaoachen98/Open-LLaVA-NeXT)
-
 
 ## 🚀 Run and evaluation
 To configure the FiCoCo model with these parameters, update the corresponding settings in your code or configuration file. Below is an example configuration:
