@@ -3,15 +3,15 @@
 <h1> Rethinking Token Reduction in MLLMs:
  Towards a Unified Paradigm for Training-Free Acceleration </h1>
 
-<h5 align="center"> 
+<h4 align="center"> 
 
-[Yuhang Han]()<sup>1* </sup>,
-[Xuyang Liu]()<sup>2*</sup>,
-[Pengxiang Ding]()<sup>3</sup>,
-[Donglin Wang]()<sup>3</sup>,\
-[Honggang Chen]()<sup>2</sup>,
-[QingSen Yan]()<sup>1</sup>
-[Siteng Huang]()<sup>4✉</sup>
+[Yuhang Han](https://scholar.google.com/citations?user=zggQZNAAAAAJ)<sup>1* </sup>,
+[Xuyang Liu](https://xuyang-liu16.github.io/)<sup>2*</sup>,
+[Pengxiang Ding](https://dingpx.github.io/)<sup>3</sup>,
+[Donglin Wang](https://milab.westlake.edu.cn/)<sup>3</sup>,\
+[Honggang Chen](https://sites.google.com/view/honggangchen/)<sup>2</sup>,
+[QingSen Yan](https://qingsenyangit.github.io/)<sup>1</sup>
+[Siteng Huang](https://kyonhuang.top/)<sup>4✉</sup>
 
 <sup>1</sup>Northwestern Polytechnical University, <sup>2</sup>Sichuan University,\
 <sup>3</sup>Westlake University, <sup>4</sup>Zhejiang University
@@ -20,7 +20,7 @@
 <a href='https://arxiv.org/pdf/2411.17686'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 
-</h5>
+</h4>
 </div>
 
 <p align='center'>
