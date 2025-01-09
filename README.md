@@ -10,7 +10,7 @@
 [Pengxiang Ding](https://dingpx.github.io/)<sup>3</sup>,
 [Donglin Wang](https://milab.westlake.edu.cn/)<sup>3</sup>,\
 [Honggang Chen](https://sites.google.com/view/honggangchen/)<sup>2</sup>,
-[QingSen Yan](https://qingsenyangit.github.io/)<sup>1</sup>
+[QingSen Yan](https://qingsenyangit.github.io/)<sup>1</sup>,
 [Siteng Huang](https://kyonhuang.top/)<sup>4✉</sup>
 
 <sup>1</sup>Northwestern Polytechnical University, <sup>2</sup>Sichuan University,\
@@ -92,4 +92,4 @@ If you use FiCoCo in your research, please cite our work by using the following 
 We extend our gratitude to the open-source efforts of [LLaVA](https://github.com/haotian-liu/LLaVA), [ToMe](https://github.com/facebookresearch/ToMe/) and [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT).
 
 ## :e-mail: Contact
-For any question about our paper or code, please email `yhhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
