@@ -39,7 +39,7 @@
 <img width="1000" alt="image" src="./intro.png">
 </div>
 
-**TLDR:** This study introduces a unified "filter-correlate-compress" paradigm to streamline training-free token reduction in Multimodal Large Language Models (MLLMs), achieving up to 82.4% FLOPs reduction with minimal performance impact and outperforming existing methods across 10 benchmarks.
+> **TLDR:** This study introduces a unified "filter-correlate-compress" paradigm to streamline training-free token reduction in Multimodal Large Language Models (MLLMs), achieving up to 82.4% FLOPs reduction with minimal performance impact and outperforming existing methods across 10 benchmarks.
 
 ## 🛠 Preparation
 
