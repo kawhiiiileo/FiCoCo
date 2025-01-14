@@ -10,7 +10,7 @@
 [Pengxiang Ding](https://dingpx.github.io/)<sup>3</sup>,
 [Donglin Wang](https://milab.westlake.edu.cn/)<sup>3</sup>,\
 [Honggang Chen](https://sites.google.com/view/honggangchen/)<sup>2</sup>,
-[QingSen Yan](https://qingsenyangit.github.io/)<sup>1</sup>,
+[Qingsen Yan](https://qingsenyangit.github.io/)<sup>1</sup>,
 [Siteng Huang](https://kyonhuang.top/)<sup>4✉</sup>
 
 <sup>1</sup>Northwestern Polytechnical University, <sup>2</sup>Sichuan University,\
