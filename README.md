@@ -25,7 +25,7 @@ Zihan Zhang<sup>3</sup>,
 </div>
 
 <p align='center'>
-<img width="600" alt="image" src='./main_new'>
+<img width="600" alt="image" src='./main_new.png'>
 </p>
 
 ## 🔥 News
