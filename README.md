@@ -78,13 +78,13 @@ Example for evaluating SQA results (r=42, control_encoding_layer=11, merge_visua
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/sqa.sh
 ```
 
-<p align="center"> <img src="efficiency_analysis.jpg" width="1000" align="center"> </p>
+<p align="center"> <img src="efficiency_analysis.jpg" width="600" align="center"> </p>
 
 > To calculate the theoretical computational efficiency shown above, we recommend the methodology presented in the work of [LLM-Viewer](https://github.com/hahnyuan/LLM-Viewer/). We deeply appreciate their outstanding contribution to this field.
 
 ## 🚀 Exploring Without CLS Token
 Considering that some MLLM visual encoders do not involve a [CLS] token, we propose a feasible alternative. The specific results are as follows, and further details can be found in the paper.
-<p align="center"> <img src="visual.png" width="800" align="center"> </p>
+<p align="center"> <img src="visual.png" width="600" align="center"> </p>
 
 ## 📌 Citation
 
