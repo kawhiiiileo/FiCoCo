@@ -1,7 +1,7 @@
 <div align="center">
 
-<h1> Rethinking Token Reduction in MLLMs:
- Towards a Unified Paradigm for Training-Free Acceleration </h1>
+<h1> Filter, Correlate, Compress:
+Training-Free Token Reduction for MLLM Acceleration </h1>
 
 <h4 align="center"> 
 
