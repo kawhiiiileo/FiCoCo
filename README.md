@@ -7,7 +7,7 @@ Training-Free Token Reduction for MLLM Acceleration </h1>
 
 [Yuhang Han](https://scholar.google.com/citations?user=zggQZNAAAAAJ)<sup>1* </sup>,
 [Xuyang Liu](https://xuyang-liu16.github.io/)<sup>2*</sup>,
-[Zihan Zhang]<sup>3*</sup>,
+Zihan Zhang<sup>3</sup>,
 [Pengxiang Ding](https://dingpx.github.io/)<sup>4</sup>,
 [Donglin Wang](https://milab.westlake.edu.cn/)<sup>4</sup>,\
 [Honggang Chen](https://sites.google.com/view/honggangchen/)<sup>2</sup>,
