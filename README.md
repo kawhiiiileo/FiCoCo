@@ -19,7 +19,7 @@ Zihan Zhang<sup>3</sup>,
 
 <p>
 <a href='https://arxiv.org/pdf/2411.17686'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
-<a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
+<!-- <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a> -->
 
 </h4>
 </div>
