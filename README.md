@@ -19,7 +19,7 @@ Zihan Zhang<sup>3</sup>,
 
 <p>
 <a href='https://arxiv.org/pdf/2411.17686'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
-<!-- <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a> -->
+<a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 
 </h4>
 </div>
@@ -90,13 +90,14 @@ Considering that some MLLM visual encoders do not involve a [CLS] token, we prop
 
 If you use FiCoCo in your research, please cite our work by using the following BibTeX entry:
 ```bibtex
-@article{FiCoCo2024,
-    title={Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration}, 
-    author={Yuhang Han and Xuyang Liu and Pengxiang Ding and Donglin Wang and Honggang Chen and Qingsen Yan and Siteng Huang},
-    year={2024},
-    eprint={2411.17686},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@misc{han2025filtercorrelatecompresstrainingfree,
+      title={Filter, Correlate, Compress: Training-Free Token Reduction for MLLM Acceleration}, 
+      author={Yuhang Han and Xuyang Liu and Zihan Zhang and Pengxiang Ding and Donglin Wang and Honggang Chen and Qingsen Yan and Siteng Huang},
+      year={2025},
+      eprint={2411.17686},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.17686}, 
 }
 
 ```
