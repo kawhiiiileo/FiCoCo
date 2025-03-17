@@ -18,7 +18,7 @@ Zihan Zhang<sup>3</sup>,
 <sup>3</sup>Johns Hopkins University, <sup>4</sup>Westlake University, <sup>5</sup>Zhejiang University
 
 <p>
-<a href='https://arxiv.org/pdf/2411.17686'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://arxiv.org/pdf/2411.17686v3'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 
 </h4>
