@@ -25,7 +25,7 @@ Zihan Zhang<sup>3</sup>,
 </div>
 
 <p align='center'>
-<img width="600" alt="image" src='./fig/fig1.png'>
+<img width="600" alt="image" src='./fig1.png'>
 </p>
 
 ## 🔥 News
@@ -37,7 +37,7 @@ Zihan Zhang<sup>3</sup>,
 ## 👀 Overview
 
 <div align=center>
-<img width="1000" alt="image" src="./fig/method.png">
+<img width="1000" alt="image" src="./method.png">
 </div>
 
 > **TLDR:** This study introduces a unified "filter-correlate-compress" paradigm to streamline training-free token reduction in Multimodal Large Language Models (MLLMs), achieving up to 82.4% FLOPs reduction with minimal performance impact and outperforming existing methods across 10 benchmarks.
@@ -107,4 +107,5 @@ We extend our gratitude to the open-source efforts of [LLaVA](https://github.com
 
 ## :e-mail: Contact
 For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+
 
