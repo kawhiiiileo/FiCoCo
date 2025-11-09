@@ -25,7 +25,7 @@ Zihan Zhang<sup>3</sup>,
 </div>
 
 <p align='center'>
-<img width="600" alt="image" src='./fig1.png'>
+<img width="400" alt="image" src='./fig1.png'>
 </p>
 
 ## 🔥 News
@@ -107,5 +107,6 @@ We extend our gratitude to the open-source efforts of [LLaVA](https://github.com
 
 ## :e-mail: Contact
 For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+
 
 
