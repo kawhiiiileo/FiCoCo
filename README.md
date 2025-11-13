@@ -22,7 +22,6 @@ Junjie Chen<sup>4</sup>,
 <sup>5</sup>Johns Hopkins University  
 <sup>6</sup>Zhejiang University  
 
-
 <p>
 <a href='https://arxiv.org/pdf/2411.17686v3'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
@@ -113,6 +112,7 @@ We extend our gratitude to the open-source efforts of [LLaVA](https://github.com
 
 ## :e-mail: Contact
 For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+
 
 
 
