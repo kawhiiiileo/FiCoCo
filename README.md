@@ -3,24 +3,23 @@
 <h1> Filter, Correlate, Compress:
 Training-Free Token Reduction for MLLM Acceleration </h1>
 
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=zggQZNAAAAAJ">Yuhang Han</a><sup>1*</sup>,
-  <a href="https://xuyang-liu16.github.io/">Xuyang Liu</a><sup>4*</sup>,
-  Zihan Zhang<sup>5</sup>,
-  <a href="https://dingpx.github.io/">Pengxiang Ding</a><sup>1</sup>,
-  Junjie Chen<sup>4</sup>,
-  <a href="https://milab.westlake.edu.cn/">Donglin Wang</a><sup>1</sup>,
-  <a href="https://sites.google.com/view/honggangchen/">Honggang Chen</a><sup>4</sup>,
-  <a href="https://qingsenyangit.github.io/">Qingsen Yan</a><sup>2,3</sup>,
-  <a href="https://kyonhuang.top/">Siteng Huang</a><sup>6✉</sup>
-</p>
+[Yuhang Han](https://scholar.google.com/citations?user=zggQZNAAAAAJ)<sup>1*</sup>,
+[Xuyang Liu](https://xuyang-liu16.github.io/)<sup>2*</sup>,
+Zihan Zhang<sup>3</sup>,
+[Pengxiang Ding](https://dingpx.github.io/)<sup>1</sup>,
+[Junjie Chen](https://scholar.google.com/citations?user=I4eollwAAAAJ)<sup>2</sup>,  
+[Donglin Wang](https://milab.westlake.edu.cn/)<sup>1</sup>,
+[Honggang Chen](https://sites.google.com/view/honggangchen/)<sup>2</sup>,
+[Qingsen Yan](https://qingsenyangit.github.io/)<sup>4,5</sup>,
+[Siteng Huang](https://kyonhuang.top/)<sup>6✉</sup>
 
-<sup>1</sup>Westlake University  
-<sup>2</sup>Shenzhen Research Institute of Northwestern Polytechnical University  
-<sup>3</sup>Northwestern Polytechnical University  
-<sup>4</sup>Sichuan University  
-<sup>5</sup>Johns Hopkins University  
-<sup>6</sup>Zhejiang University  
+<sup>1</sup> Westlake University  
+<sup>2</sup> Sichuan University  
+<sup>3</sup> Johns Hopkins University  
+<sup>4</sup> Northwestern Polytechnical University  
+<sup>5</sup> Shenzhen Research Institute of Northwestern Polytechnical University  
+<sup>6</sup> Zhejiang University
+
 
 <a href='https://arxiv.org/pdf/2411.17686v3'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://ficoco-accelerate.github.io/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
@@ -111,6 +110,7 @@ We extend our gratitude to the open-source efforts of [LLaVA](https://github.com
 
 ## :e-mail: Contact
 For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+
 
 
 
