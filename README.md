@@ -4,6 +4,7 @@
 Training-Free Token Reduction for MLLM Acceleration </h1>
 
 <h4 align="center"> 
+ 
 [Yuhang Han](https://scholar.google.com/citations?user=zggQZNAAAAAJ)<sup>1*</sup>,  
 [Xuyang Liu](https://xuyang-liu16.github.io/)<sup>4*</sup>,  
 Zihan Zhang<sup>5</sup>,  
@@ -112,6 +113,7 @@ We extend our gratitude to the open-source efforts of [LLaVA](https://github.com
 
 ## :e-mail: Contact
 For any question about our paper or code, please email `yuhangh984@gmail.com` or `liuxuyang@stu.scu.edu.cn`.
+
 
 
 
